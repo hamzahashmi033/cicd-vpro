@@ -12,11 +12,7 @@ pipeline {
     }
 
     stages{
-      stage('Fetch code'){
-        steps {
-        git main: 'docker', url: 'https://github.com/hamzahashmi033/cicd-vpro.git'
-       }
-      }
+     
 
 
         stage('BUILD'){
